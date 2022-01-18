@@ -1,0 +1,18 @@
+.card{
+    border: 1px solid gray !important;
+    flex-direction: row !important;
+}
+.card span::after{
+    z-index: 1 !important;
+    visibility: visible !important;
+    top: 100 !important;
+}
+.card i:hover{
+    color: gray !important;
+}
+
+@media only screen and (max-width:720px) {
+    .card{
+        flex-direction: column !important;
+    }
+}

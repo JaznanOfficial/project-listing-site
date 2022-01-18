@@ -1,0 +1,18 @@
+.header {
+    display: block;
+    position: relative;
+}
+.header::after {
+    content: "";
+    background-size: cover;
+    background-image: url("header-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
