@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Header.css';
 import profile from './profile_1-removebg-preview (3).png'
 
@@ -12,7 +13,7 @@ const Header = () => {
                 <h1 className='text-light'>Md Abdur Rahman</h1>
                 <h3 className='text-danger'>Mern-stack Web Developer</h3>
                 <h5 className='text-light'>Khulna,Bangladesh</h5>
-                <h5><Button variant="outline-light">Admin Login</Button></h5>
+                <h5><Link to='admin-login'><Button variant="outline-light">Admin Login</Button></Link></h5>
             </div>
             
         </div>
