@@ -10,7 +10,7 @@ const SingleCard = (props) => {
     return (
         
         <Col>
-        <div className="card d-flex flex-lg-column justify-content-center align-items-center text-lg-start shadow bg-dark">
+        <div className="card d-flex flex-lg-row justify-content-center align-items-center text-lg-start shadow p-3 bg-dark">
                 <div className="w-100">
                     <ReactImageTooltip image={img}>
                         <h3 className="text-danger">{name}</h3>
