@@ -13,7 +13,7 @@ const Header = () => {
                 <h1 className='text-light'>Md Abdur Rahman</h1>
                 <h3 className='text-danger'>Mern-stack Web Developer</h3>
                 <h5 className='text-light'>Khulna,Bangladesh</h5>
-                <h5><Link to='admin-login'><Button variant="outline-light">Admin Login</Button></Link></h5>
+                
             </div>
             
         </div>
