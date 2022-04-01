@@ -5,7 +5,7 @@ import SingleCard from '../singleCard/SingleCard';
 const Cards = () => {
     const [cards, setCards] = useState([]);
     useEffect(() => {
-        fetch('./project-list.json')
+        fetch('/https://whispering-sierra-50046.herokuapp.com/lists')
             .then(res => res.json())
             .then(data => setCards(data));
         
