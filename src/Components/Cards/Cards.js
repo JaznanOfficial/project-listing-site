@@ -12,7 +12,7 @@ const Cards = () => {
     },[])
     console.log(cards);
     return (
-        <Row xs={1} md={1} className="g-3 mx-3 my-3">
+        <Row xs={1} md={1} className="g-3 mx-3 my-3 d-flex flex-column-reverse">
             {
                 cards.map(singleCard => <SingleCard
                     key={singleCard.name}
